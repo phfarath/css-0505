@@ -17,8 +17,7 @@
     /* separando a imagem do teto do container  */
     padding: 20px 0;
     /* arumando card  */
-    border: 2px solid #fff;
-    width: 31%;
+    width: 30%;
     text-align: center;
     height: 450px;
     display: flex;
@@ -26,8 +25,16 @@
     align-items: center;
     justify-content: center;
     gap: 15px;
+    box-shadow: 1px 1px 30px #665;
+    border-radius: 15px;
+    transition: .5s;/*transiçao do hover*/
 }
 /* imagem do card item  */
 .card-item img{
     width: 80%;
+    border-radius: 15px;
+}
+/* transformacao quando o mouse passa encima  */
+.card-item:hover{
+    transform: scale(1.1);/*transformacao do hover*/
 }
